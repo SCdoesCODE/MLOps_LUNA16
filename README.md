@@ -14,4 +14,11 @@ This project is done using the AWS Free Tier. Preprocessing is done on an EC2 in
 ## Notebooks for downloading and preprocessing data
 
 - Download_LUNA16.ipynb
-- Medical_Imaging_Model.ipynb (**in process**)
+- Medical_Imaging_Model.ipynb (**in progress**)
+
+## TODO
+
+- preprocessing of data
+- store data in S3 bucket
+- use SageMaker to train model
+- use cloudwatch to monitor logs 
