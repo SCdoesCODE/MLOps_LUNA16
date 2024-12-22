@@ -14,7 +14,7 @@ This project is done using the AWS Free Tier. Preprocessing is done on an EC2 in
 ## Notebooks for downloading and preprocessing data
 
 - Download_LUNA16.ipynb
-- Medical_Imaging_Model.ipynb (**in progress**)
+- Subsetting_Data.ipynb (**in progress**)
 
 ## TODO
 
