@@ -8,7 +8,7 @@ This project is done using the AWS Free Tier. Preprocessing is done on an EC2 in
 
 ## Notebooks with instructions on how recreate project and use AWS
 
-- Medical_Imaging_Model.ipynb
+- Setup_Instructions.ipynb
 - Reconnecting_Instructions.ipynb
 
 ## Notebooks for downloading and preprocessing data
