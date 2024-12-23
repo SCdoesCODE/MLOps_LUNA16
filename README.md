@@ -10,15 +10,14 @@ This project is done using the AWS Free Tier. Preprocessing is done on an EC2 in
 
 - Setup_Instructions.ipynb
 - Reconnecting_Instructions.ipynb
+- Create_S3_Bucket_Instructions.ipynb
 
 ## Notebooks for downloading and preprocessing data
 
 - Download_LUNA16.ipynb
-- Subsetting_Data.ipynb (**in progress**)
+- Subsetting_Data.ipynb
 
 ## TODO
 
-- preprocessing of data
-- store data in S3 bucket
 - use SageMaker to train model
 - use cloudwatch to monitor logs 
