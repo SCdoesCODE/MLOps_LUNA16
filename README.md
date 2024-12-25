@@ -1,23 +1,25 @@
-# Medical_Imaging
+# Medical Imaging on AWS
 
-Detection of lung nodules in CT scans using the LUNA16 dataset. 
+## Introduction
+
+This repository documents my journey in using ML Ops tools and AWS services to preprocess medical imaging datasets and fine-tune a machine learning model for cancer research. The project utilises the LUNA16 dataset, a collection of annotated CT scans for lung cancer detection. The primary goal is to learn ML Ops workflows, including cloud infrastructure setup, data preprocessing, model training, and deployment, while staying within the AWS Free Tier limits as it is a project I am doing on my free time and simply for learning purposes.
+
+## Cloud infrastructure and AWS services used
+
+- S3: Store preprocessed datasets. (maximum free storage 5GB)
+- EC2: Handle preprocessing and smaller tasks. (maximum free storage 30GB)
+- SageMaker: Data handling and train the ML model in jupyterlab notebooks. (250 hours of free training on selected CPU instances)
+- CloudWatch: Monitor and debug logs.
+
+## Dataset
 
 LUNA16: https://luna16.grand-challenge.org/
 
-This project is done using the AWS Free Tier. Preprocessing is done on an EC2 instance (maximum free storage 30GB) and preprocessed data will be stored in S3 (maximum free storage 5GB).
+## Instructions for how to reproduce the process
 
-## Notebooks with instructions on how recreate project and use AWS
-
-- Setup_Instructions.ipynb
-- Reconnecting_Instructions.ipynb
-- Create_S3_Bucket_Instructions.ipynb
-
-## Notebooks for downloading and preprocessing data
-
-- Download_LUNA16.ipynb
-- Subsetting_Data.ipynb
+My notes and remarks while setting up and learning during this project can be found in the Instructions.ipynb notebook. 
 
 ## TODO
 
-- use SageMaker to train model
+- use SageMaker to finetune 3D U net model on LUNA16 data
 - use cloudwatch to monitor logs 
