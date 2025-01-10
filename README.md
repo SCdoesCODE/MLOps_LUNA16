@@ -21,5 +21,5 @@ My notes and remarks while setting up and learning during this project can be fo
 
 ## TODO
 
-- use SageMaker to finetune 3D U net model on LUNA16 data
+- use SageMaker to finetune 3D U net model on LUNA16 data (didn´t know I had to stop my notebook instance, 250 hour limit per month on sagemaker - so will have to wait for february to finish the work for this repo)
 - use cloudwatch to monitor logs 
